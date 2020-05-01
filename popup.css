@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100%;
+  padding: 20px;
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+#marked-urls {
+  height: 300px;
+  list-style: none;
+  margin: 20px -20px -20px -20px;
+  overflow-y: auto;
+}
+
+#marked-urls li {
+  border-bottom: 1px solid #a3aaff;
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+kbd {
+  font-size: 1rem;
+  font-weight: bold;
+}
